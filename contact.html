@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jeevan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="Home.html" class="logo">Jeevan.</a>
+        <nav class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>  
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p class="contact-intro">Have a question or want to work together? I'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-details">
+                            <h3>Email</h3>
+                            <a href="mailto:jeevanraj05022008@example.com">jeevanraj05022008@example.com</a>
+                            <p>I'll respond within 24 hours</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+919344108864">+91 93441 08864</a>
+                            <p>Available Mon-Fri, 9AM-6PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <h3>Location</h3>
+                            <p>Lawspet</p>
+                            <p>Puducherry, India</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">🔗</div>
+                        <div class="info-details">
+                            <h3>Connect With Me</h3>
+                            <div class="social-links">
+                                <a href="https://github.com/Flame-Phoneix" target="_blank" class="social-btn">GitHub</a>
+                                <a href="https://www.linkedin.com/in/jeevan-raj-b690b136b/" target="_blank" class="social-btn">LinkedIn</a>
+                                <a href="https://instagram.com/jeevanraj_601" target="_blank" class="social-btn">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Send Me a Message</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message here..." rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Jeevan. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="theme.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
